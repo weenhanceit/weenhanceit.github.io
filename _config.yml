@@ -11,7 +11,7 @@ email: info@weenhanceit.com
 description: > # this means to ignore newlines until "baseurl:"
   Enabling your people to be more effective through technology.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://weenhanceit.github.io" # the base hostname & protocol for your site
+url: "https://weenhanceit.com" # the base hostname & protocol for your site
 twitter_username: weenhanceit
 github_username:  weenhanceit
 company_name: "We Enhance IT"

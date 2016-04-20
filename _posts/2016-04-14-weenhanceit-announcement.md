@@ -4,7 +4,7 @@ title:  "We Enhance IT"
 date:   2016-04-14
 categories: "press release"
 ---
-Jade Systems Inc President Larry “LJ” Reid and International Data Engineering Inc President Phil Carrillo recently announced a new joint venture that will be branded WE Enhance IT.
+Jade Systems Inc President Larry Reid and International Data Engineering Inc President Phil Carrillo recently announced a new joint venture that will be branded WE Enhance IT.
 
 “WE Enhance IT is a vehicle that will allow us to bring the resources and experiences of two organizations to bear on our existing and future services and products.”  Mr. Reid stated.  “Both of our organizations are strongly committed to bringing high value, high quality solutions to Web Application development, data management and data analysis problems.  WE Enhance IT allows us to effectively double our experience and capability to deliver.”
 

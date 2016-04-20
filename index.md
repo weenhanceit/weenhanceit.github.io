@@ -38,5 +38,67 @@ WE believe in quality, our work is tested and reliable.  WE don’t take short c
 As Mr Reid puts it “if you don’t have time to do it right, then you certainly don’t have time to do it wrong”.
 
 WE believe in meeting our commitments.
+
+## WE bring experience
+WE’ve done it before, and we can do it for you.  Some of our major experiences include:
+
+* Custom web application to allow the collection and reporting of circulation data for all Canadian publications
+
+* Custom web application to all the Chamber of Commerce for a major US city to manage projects to bring new business to the area
+
+* Custom CRM application for a major automobile manufacturer that matched marketing and sales data, including a front end Web application reporting tool
+
+* Data gathering, storage, reporting system for Canada Post to allowing them to analyse and develop new services for their clients
+
+* Custom digital/analog I/O system with digital data capture and playback for major automobile manufacturer
+
+* Developing electronic medical records systems
+
+* Organizational change management – just-in-time drug distribution from the pharmacy, combined with training 1,700 nurses, at 3 hospitals
+
+* Moving several medium-sized enterprise data centres; deploying enterprise storage and backup systems; various network upgrade projects
+
+* Gathering and analyzing satellite image acquisition opportunities, and scheduling reception of satellite data
+
+## WE bring expertise
+
+We have hands on experience in developing and documenting applications using:
+
+* Ruby on Rails
+* Ruby
+* Php
+* Javascript
+* HTML
+* CSS
+* MySQL
+* Postgres
+* Oracle
+* SQL Server
+* Access
+* C
+* C++
+* VBA
+* VBScript
+* Shell Script
+* .NET
+
+## WE bring methodology
+Our approach is built on modern agile methodologies for delivering solutions. As the Agile Manifesto says, “Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.” We value customer collaboration over contract negotiation.
+
+Our first step is to listen. It's your problem we want to solve, but we can't solve it without understanding what it is. We'll talk to you and your key people to get a sense of what you need.
+
+Understanding is a two way street. That's why we'll start to show you working, useful software early. We use the techniques of test driven development, continuous integration, and continuous delivery to be able to rapidly and frequently show you working software. (This is how Amazon can push changes to their web sites on average every nine seconds.)
+Modern web frameworks like Ruby on Rails and React allow us to deliver web applications rapidly, reliably, and on whatever device you need it on: phone, tablet, laptop, or workstation. We don't need a long, drawn out analysis phase, because we can produce working software quickly and cheaply.
+
+We don't believe in reinventing the wheel. In fact, we're big on the benefits of sharing. We use open source software and the ecosystems around them to maximize what we can do for you.
+
+A direct benefit to you from open source is avoiding large investments up front, before you even know if the software will do what you want. For example, if we're working with you and we discover that your application doesn't require a big data tool like Solr, we simply switch you to a traditional Postgres database. No wasted investment, and no pressure to stay on a tool that doesn't meet your needs.
+
+## Application Development
+We use modern web development frameworks and languages, to give you applications that work the way our users expect them to. We automate the testing of the application (“test driven development”), so it’s easy to enhance the application, or fix bugs, with the confidence that the application still does everything it did before. We use continuous integration and continuous delivery, so you can see the progress we’re making, and so we’re ready to deploy enhancements as soon as you’re ready for them.
+
+## DevOps
+We deploy your application rapidly and easily through automated processes. We monitor your application continuously and respond to problems, often before you even notice them. By leveraging computers to help us do our job, you get a stable, reliable application that's easy to enhance and fix.
+
   </div>
 </div>
