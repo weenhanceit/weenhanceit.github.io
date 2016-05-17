@@ -12,10 +12,13 @@ description: > # this means to ignore newlines until "baseurl:"
   Enabling your people to be more effective through technology.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://weenhanceit.com" # the base hostname & protocol for your site
-twitter_username: 
+twitter_username:
 github_username:  weenhanceit
 linkedin_username: we-enhance-it
 company_name: "We Enhance IT"
+phone_eastern: 613.297.2158
+phone_western: 604.376.8884
+fax: 877.421.5561
 
 # Build settings
 markdown: kramdown
