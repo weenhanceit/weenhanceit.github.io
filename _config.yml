@@ -19,6 +19,11 @@ company_name: "We Enhance IT"
 phone_eastern: 613.297.2158
 phone_western: 604.376.8884
 fax: 877.421.5561
+we_logo: "<span style=\"font-family: Tahoma, Geneva, sans-serif; color: #101010; font-style: italic; font-weight: bold;\">We</span>"
+#welogosm: "<span style=\"font-family: Impact, Charcoal, sans-serif; color: #101010; font-weight: bold;\">We</span>"
+#welogosm: '<span style="color: red">small \" # logo</span>'
+#welogosm: "<span style=\"font-family: Impact, Charcoal, sans-serif; color: #101010; font-weight: bold;\">We</span>"
+
 
 # Build settings
 markdown: kramdown
