@@ -2,7 +2,7 @@
 layout: post
 title:  "Time for No-Pants Software"
 date:   2016-06-07
-categories: "press release"
+categories: "posts"
 ---
 # No-Pants Software
 A friend of ours manages a middleware team at a medium-sized business.
