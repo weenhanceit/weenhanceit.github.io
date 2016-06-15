@@ -305,6 +305,11 @@ emerged from the sharing ethos of open source developers.
 Perhaps it's a bit counter-intuitive,
 but experience has shown that businesses benefit more from sharing software,
 than from trying to keep it to themselves.
+You benefit from the sharing of answers to technical questions
+on sites like [Stack Overflow](stackoverflow.com),
+other companies fixing bugs for you,
+and a world-wide group of people
+using the software to solve problems similar to yours.
 
 ## Conclusion
 In our next post,
