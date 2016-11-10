@@ -58,8 +58,11 @@ body {
   // font-family: 'Lato', sans-serif;
 }
 
-// #front-page {
-//   p {
-//     font-size: 22pt;
-//   }
-// }
+#front-page {
+  // p {
+  //   font-size: 22pt;
+  // }
+  .card-block, .card, .col-md-6 {
+    height: 100%;
+  }
+}
