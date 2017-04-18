@@ -1,0 +1,90 @@
+.divider {
+    height:50px;
+}
+
+section {
+    height:500px;
+    padding-top:50px;
+    padding-bottom:50px;
+    overflow:auto;
+}
+
+.bg-text-title {
+  color:#FFFFFF;
+  text-align: right;
+  padding: 20px;
+  font-weight: 400;
+  font-size: 2.6rem;
+  line-height: 90%;
+  text-shadow: -1px -1px #000066, 1px 0px #000066, 2px 1px #000066, 3px 2px #000066, 4px 3px #000066;
+}
+.fg-text-title {
+  color: #000066;
+  font-weight: 500;
+  text-align: center;
+  font-size: 2rem;
+  font-style: italic;
+  padding: 15px;
+  text-shadow: -1px -1px #B3B3FF, 1px 0px #B3B3FF, 2px 1px #B3B3FF, 3px 2px #B3B3FF, 4px 3px #B3B3FF;
+}
+.panel-title {
+  font-size: 1.75rem;
+  text-align: center;
+  padding: 10px;
+}
+
+.bg-1 {
+	background: url('/alt/confused.jpg') no-repeat center center fixed;
+    color:#FFFFFF;
+    background-size:cover;
+
+}
+
+.bg-2 {
+	background: url('/alt/sun_rise.jpg') no-repeat top center fixed;
+    color:#fff;
+    background-size:cover;
+}
+
+.bg-3 {
+	background: url('/alt/stormy_seas8.jpg') no-repeat top center fixed;
+    color:#fff;
+  background-size:cover;
+
+}
+.bg-4 {
+	background: url('/alt/calm_seas5.jpg') no-repeat top center fixed;
+    color:#fff;
+    background-size:cover;
+
+}
+.bg-5 {
+	background: url('/alt/overwhelmed1.jpg') no-repeat top center fixed;
+    color:#fff;
+    background-size:cover;
+
+}
+.bg-6 {
+	background: url('/alt/ontrack.jpg') no-repeat top center fixed;
+    color:#fff;
+    background-size:cover;
+
+}
+.bg-7 {
+	background: url('/alt/stormy_seas11.jpg') no-repeat top center fixed;
+    color:#fff;
+  background-size:cover;
+
+}
+
+#footer {
+    height: 60px;
+    background-color:#585858;
+    margin-top:50px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+#footer a {
+  color:#efefef;
+}

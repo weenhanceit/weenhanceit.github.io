@@ -8,8 +8,10 @@
 # Site settings
 title: We Enhance IT
 email: info@weenhanceit.com
-description: > # this means to ignore newlines until "baseurl:"
+description1: > # this means to ignore newlines until "baseurl:"
   Enabling your people to be more effective through technology.
+description: > # this means to ignore newlines until "baseurl:"
+  We Listen.<br>We Act.<br>We Deliver.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://weenhanceit.com" # the base hostname & protocol for your site
 twitter_username:
