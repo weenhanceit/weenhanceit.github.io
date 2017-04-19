@@ -1,12 +1,12 @@
 .divider {
-    height:50px;
+    height: 50px;
 }
 
 section {
-    height:500px;
-    padding-top:50px;
-    padding-bottom:50px;
-    overflow:auto;
+    height: 500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: auto;
 }
 
 .bg-text-title {
@@ -33,48 +33,51 @@ section {
   padding: 10px;
 }
 
-.bg-1 {
-	background: url('/alt/confused.jpg') no-repeat center center fixed;
-    color:#FFFFFF;
-    background-size:cover;
+%bg {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  background-size: contain;
+  background-color: yellow;
+}
 
+.bg-1 {
+	background-image: url('/alt/confused.jpg'); // no-repeat center center fixed;
+  @extend %bg;
 }
 
 .bg-2 {
-	background: url('/alt/sun_rise.jpg') no-repeat top center fixed;
-    color:#fff;
-    background-size:cover;
+	background-image: url('/alt/sun_rise.jpg'); // no-repeat top center fixed;
+  @extend %bg;
 }
 
 .bg-3 {
-	background: url('/alt/stormy_seas8.jpg') no-repeat top center fixed;
-    color:#fff;
-  background-size:cover;
-
+	background-image: url('/alt/stormy_seas8.jpg'); // no-repeat top center fixed;
+  @extend %bg;
 }
+
 .bg-4 {
-	background: url('/alt/calm_seas5.jpg') no-repeat top center fixed;
-    color:#fff;
-    background-size:cover;
-
+	background-image: url('/alt/calm_seas5.jpg'); // no-repeat top center fixed;
+  @extend %bg;
 }
+
 .bg-5 {
-	background: url('/alt/overwhelmed1.jpg') no-repeat top center fixed;
-    color:#fff;
-    background-size:cover;
-
+	background-image: url('/images/Willem_van_de_Velde_the_Younger,_Ships_on_a_Stormy_Sea_(c._1672).jpg'); // no-repeat top center fixed;
+  @extend %bg;
+  // background-position: 0px -650px;
+  background-position: right -400px;
 }
+
 .bg-6 {
-	background: url('/alt/ontrack.jpg') no-repeat top center fixed;
-    color:#fff;
-    background-size:cover;
-
+	background-image: url('/images/Van_de_Velde,_Willem_the_younger_-_A_Calm_-_Google_Art_Project.jpg'); // no-repeat top center fixed;
+  @extend %bg;
+  // background-position: 0px -850px;
+  background-position: right bottom;
 }
-.bg-7 {
-	background: url('/alt/stormy_seas11.jpg') no-repeat top center fixed;
-    color:#fff;
-  background-size:cover;
 
+.bg-7 {
+	background-image: url('/alt/stormy_seas11.jpg'); // no-repeat top center fixed;
+  @extend %bg;
 }
 
 #footer {
