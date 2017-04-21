@@ -36,9 +36,10 @@ section {
 %bg {
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: top;
-  background-size: contain;
+  background-position: bottom;
+  background-size: cover;
   background-color: yellow;
+  background-clip: border-box;
 }
 
 .bg-1 {
@@ -64,8 +65,16 @@ section {
 .bg-5 {
 	background-image: url('/images/Willem_van_de_Velde_the_Younger,_Ships_on_a_Stormy_Sea_(c._1672).jpg'); // no-repeat top center fixed;
   @extend %bg;
-  // background-position: 0px -650px;
-  background-position: right -400px;
+  // background-position: top -250px right;
+  background-position: top -396px right;
+  // background-position: bottom 0px right;
+  background-size: auto 1000px;
+}
+
+@media (min-width: 1457px) {
+  .bg-5 {
+    background-size: 100% 1000px;
+  }
 }
 
 .bg-6 {
