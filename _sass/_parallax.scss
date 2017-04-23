@@ -36,8 +36,8 @@ section {
 %bg {
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: top;
-  background-size: contain;
+  background-position:center;
+  background-size: cover;
   background-color: yellow;
 }
 
@@ -65,20 +65,43 @@ section {
 	background-image: url('/images/Willem_van_de_Velde_the_Younger,_Ships_on_a_Stormy_Sea_(c._1672).jpg'); // no-repeat top center fixed;
   @extend %bg;
   // background-position: 0px -650px;
-  background-position: right -400px;
+  //background-position: right -400px;
 }
 
 .bg-6 {
 	background-image: url('/images/Van_de_Velde,_Willem_the_younger_-_A_Calm_-_Google_Art_Project.jpg'); // no-repeat top center fixed;
   @extend %bg;
   // background-position: 0px -850px;
-  background-position: right bottom;
+//  background-position: right bottom;
 }
 
+
 .bg-7 {
-	background-image: url('/alt/stormy_seas11.jpg'); // no-repeat top center fixed;
+	background-image: url('/alt/test01.jpg'); // no-repeat top center fixed;
   @extend %bg;
 }
+
+.bg-8 {
+	background-image: url('/alt/test02.jpg'); // no-repeat top center fixed;
+  @extend %bg;
+}
+
+.bg-9 {
+	background-image: url('/alt/test03.jpg'); // no-repeat top center fixed;
+  @extend %bg;
+}
+
+.bg-storm {
+	background-image: url('/images/stormy_cropped_01.jpg'); // no-repeat top center fixed;
+  @extend %bg;
+  background-position: right -250px;
+}
+.bg-calm {
+	background-image: url('/images/calm_cropped_01.jpg'); // no-repeat top center fixed;
+  @extend %bg;
+  background-position: center bottom;
+}
+
 
 #footer {
     height: 60px;
