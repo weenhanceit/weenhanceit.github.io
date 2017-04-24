@@ -3,21 +3,33 @@
 }
 
 section {
-    height: 500px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    height: 400px;
+    padding-top: 10px;
+    padding-bottom: 0px;
     overflow: auto;
 }
 
-.bg-text-title {
+.bg-text-title-top {
   color:#FFFFFF;
   text-align: right;
-  padding: 20px;
+  padding: 5px 20px 20px 50%;
   font-weight: 400;
-  font-size: 2.6rem;
-  line-height: 90%;
+  font-size: 1rem;
+  line-height: 120%;
   text-shadow: -1px -1px #000066, 1px 0px #000066, 2px 1px #000066, 3px 2px #000066, 4px 3px #000066;
 }
+
+.bg-text-title-bottom {
+  color:#CCCCFF;
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 120%;
+  text-shadow: -1px -1px #000000, 1px 0px #000033, 2px 1px #000000, 3px 2px #000033, 4px 3px #000033;
+}
+
+
 .fg-text-title {
   color: #000066;
   font-weight: 500;
@@ -70,7 +82,6 @@ section {
   // background-position: bottom 0px right;
   background-size: auto 1000px;
 }
-
 @media (min-width: 1457px) {
   .bg-5 {
     background-size: 100% 1000px;
@@ -101,14 +112,127 @@ section {
 }
 
 .bg-storm {
-	background-image: url('/images/stormy_cropped_01.jpg'); // no-repeat top center fixed;
+	background-image: url('/images/Stormy_18m.jpg'); // no-repeat top center fixed;
   @extend %bg;
-  background-position: right -250px;
+//  background-position: right -250px;
+  background-position: top -92px right -75px;
+  background-size: auto 556px;
 }
+
+// == @screen-sm ===============================================================
+ @media (min-width: 480px) {
+   .bg-storm {
+  background-color: blue;
+  background-image: url('/images/Stormy_14m.jpg'); // no-repeat top center fixed;
+  background-position: top -210px right -150px;
+  background-size: auto 714px;
+   }
+   .bg-text-title-top {
+     text-align: right;
+     padding: 5px 20px 20px 65%;
+     font-weight: 400;
+     font-size: 1.1rem;
+   }
+   .bg-text-title-bottom {
+     text-align: center;
+     padding: 15px 5px 5px 5px;
+     font-size: 1.9rem;
+
+   }
+    section {
+      height: 400px;
+    }
+//
+ }  // -- end @screen-sm - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+ // == @screen-md ===============================================================
+ @media (min-width: 768px) {
+   .bg-storm {
+  background-color: blue;
+  background-image: url('/images/Stormy_12m.jpg'); // no-repeat top center fixed;
+  background-position: top -229px right -75px;
+  background-size: auto 833px;
+   }
+   .bg-text-title-top {
+     text-align: right;
+     padding: 5px 20px 20px 60%;
+     font-weight: 400;
+     font-size: 1.8rem;
+   }
+   .bg-text-title-bottom {
+     text-align: center;
+     padding: 15px 5px 5px 5px;
+     font-size: 1.9rem;
+
+   }
+    section {
+      height: 500px;
+    }
+//
+}  // -- end @screen-md - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+// == @screen-md ===============================================================
+ @media (min-width: 992px) {
+   .bg-storm {
+  background-color: blue;
+  background-image: url('/images/Stormy_10m.jpg'); // no-repeat top center fixed;
+  background-position: top -396px right -75px;
+  background-size: auto 1000px;
+   }
+   .bg-text-title-top {
+     text-align: right;
+     padding: 5px 20px 20px 60%;
+     font-weight: 400;
+     font-size: 2.2rem;
+   }
+    section {
+      height: 500px;
+    }
+//
+ }  // -- end @screen-md - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+ // == @screen-lg ===============================================================
+  @media (min-width: 1200px) {
+    .bg-storm {
+   background-color: blue;
+   background-image: url('/images/Stormy_10m.jpg'); // no-repeat top center fixed;
+   background-position: top -396px right;
+   background-size: auto 1000px;
+    }
+    .bg-text-title-top {
+      text-align: right;
+      padding: 5px 20px 20px 67%;
+      font-weight: 400;
+      font-size: 2.5rem;
+    }
+    .bg-text-title-bottom {
+      text-align: center;
+      padding: 50px 5px 5px 5px;
+      font-weight: 400;
+      font-size: 2.2rem;
+    }
+     section {
+       height: 500px;
+     }
+ //
+  }  // -- end @screen-lg - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+//
+ @media (min-width: 1457px) {
+   .bg-storm {
+     background-size: 100% 1000px;
+   }
+ }
+
+
+
 .bg-calm {
-	background-image: url('/images/calm_cropped_01.jpg'); // no-repeat top center fixed;
+	background-image: url('/images/calm_20.jpg'); // no-repeat top center fixed;
   @extend %bg;
-  background-position: center bottom;
+  background-position: right bottom;
+
+
 }
 
 
