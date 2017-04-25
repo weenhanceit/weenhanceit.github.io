@@ -4,8 +4,6 @@
 
 section {
     height: 400px;
-    padding-top: 10px;
-    padding-bottom: 0px;
     overflow: auto;
 }
 
@@ -20,13 +18,16 @@ section {
 }
 
 .bg-text-title-bottom {
-  color:#CCCCFF;
+  color:#EEEEFF;
+  background-color: rgba(100,100,100,.5);
   text-align: center;
   padding: 5px 5px 5px 5px;
   font-weight: 400;
   font-size: 1.5rem;
   line-height: 120%;
-  text-shadow: -1px -1px #000000, 1px 0px #000033, 2px 1px #000000, 3px 2px #000033, 4px 3px #000033;
+
+
+//  text-shadow: -1px -1px #000000, 1px 0px #000033, 2px 1px #000000, 3px 2px #000033, 4px 3px #000033;
 }
 
 
@@ -54,65 +55,15 @@ section {
   background-clip: border-box;
 }
 
-.bg-1 {
-	background-image: url('/alt/confused.jpg'); // no-repeat center center fixed;
+.bg-calm {
+	background-image: url('/images/calm_20.jpg'); // no-repeat top center fixed;
   @extend %bg;
-}
-
-.bg-2 {
-	background-image: url('/alt/sun_rise.jpg'); // no-repeat top center fixed;
-  @extend %bg;
-}
-
-.bg-3 {
-	background-image: url('/alt/stormy_seas8.jpg'); // no-repeat top center fixed;
-  @extend %bg;
-}
-
-.bg-4 {
-	background-image: url('/alt/calm_seas5.jpg'); // no-repeat top center fixed;
-  @extend %bg;
-}
-
-.bg-5 {
-	background-image: url('/images/Willem_van_de_Velde_the_Younger,_Ships_on_a_Stormy_Sea_(c._1672).jpg'); // no-repeat top center fixed;
-  @extend %bg;
-  // background-position: top -250px right;
-  background-position: top -396px right;
-  // background-position: bottom 0px right;
-  background-size: auto 1000px;
-}
-@media (min-width: 1457px) {
-  .bg-5 {
-    background-size: 100% 1000px;
-  }
-}
-
-.bg-6 {
-	background-image: url('/images/Van_de_Velde,_Willem_the_younger_-_A_Calm_-_Google_Art_Project.jpg'); // no-repeat top center fixed;
-  @extend %bg;
-  // background-position: 0px -850px;
-//  background-position: right bottom;
-}
-
-
-.bg-7 {
-	background-image: url('/alt/test01.jpg'); // no-repeat top center fixed;
-  @extend %bg;
-}
-
-.bg-8 {
-	background-image: url('/alt/test02.jpg'); // no-repeat top center fixed;
-  @extend %bg;
-}
-
-.bg-9 {
-	background-image: url('/alt/test03.jpg'); // no-repeat top center fixed;
-  @extend %bg;
+  background-position: right bottom;
+  padding: 0px 0px 10px 0px;
 }
 
 .bg-storm {
-	background-image: url('/images/Stormy_18m.jpg'); // no-repeat top center fixed;
+	background-image: url('/images/Stormy_18.jpg'); // no-repeat top center fixed;
   @extend %bg;
 //  background-position: right -250px;
   background-position: top -92px right -75px;
@@ -123,7 +74,7 @@ section {
  @media (min-width: 480px) {
    .bg-storm {
   background-color: blue;
-  background-image: url('/images/Stormy_14m.jpg'); // no-repeat top center fixed;
+  background-image: url('/images/Stormy_14.jpg'); // no-repeat top center fixed;
   background-position: top -210px right -150px;
   background-size: auto 714px;
    }
@@ -149,7 +100,7 @@ section {
  @media (min-width: 768px) {
    .bg-storm {
   background-color: blue;
-  background-image: url('/images/Stormy_12m.jpg'); // no-repeat top center fixed;
+  background-image: url('/images/Stormy_12.jpg'); // no-repeat top center fixed;
   background-position: top -229px right -75px;
   background-size: auto 833px;
    }
@@ -175,7 +126,7 @@ section {
  @media (min-width: 992px) {
    .bg-storm {
   background-color: blue;
-  background-image: url('/images/Stormy_10m.jpg'); // no-repeat top center fixed;
+  background-image: url('/images/Stormy_10.jpg'); // no-repeat top center fixed;
   background-position: top -396px right -75px;
   background-size: auto 1000px;
    }
@@ -195,7 +146,7 @@ section {
   @media (min-width: 1200px) {
     .bg-storm {
    background-color: blue;
-   background-image: url('/images/Stormy_10m.jpg'); // no-repeat top center fixed;
+   background-image: url('/images/Stormy_10.jpg'); // no-repeat top center fixed;
    background-position: top -396px right;
    background-size: auto 1000px;
     }
@@ -227,13 +178,6 @@ section {
 
 
 
-.bg-calm {
-	background-image: url('/images/calm_20.jpg'); // no-repeat top center fixed;
-  @extend %bg;
-  background-position: right bottom;
-
-
-}
 
 
 #footer {
