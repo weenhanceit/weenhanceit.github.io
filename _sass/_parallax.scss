@@ -5,6 +5,9 @@
 section {
     height: 400px;
     overflow: auto;
+    + .container {
+      margin-top: 20px;
+    }
 }
 
 .bg-text-title-top {
