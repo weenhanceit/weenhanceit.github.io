@@ -1,5 +1,4 @@
 .contact-us {
-  background-color: red;
   color: white;
   background-repeat: no-repeat;
   background-attachment: local;
@@ -9,17 +8,10 @@
   background-image: url('/images/Writer_Cropped.jpg'); // no-repeat top center fixed;
   background-position: left bottom;
   padding: 0px 0px 10px 40%;
-  font-size: 1.2rem;
-
 }
 .contact-text{
   background-color: rgba(50,33,23,.5);
-  text-align:left;
+  text-align: left;
   padding: 5px 5px 5px 5px;
-  font-weight: 400;
-  font-size: 1.31rem;
-  line-height: 120%;
-
-
 //  text-shadow: -1px -1px #000000, 1px 0px #000033, 2px 1px #000000, 3px 2px #000033, 4px 3px #000033;
 }
