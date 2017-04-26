@@ -29,7 +29,11 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
-
+// Since we're getting Bootstrap from CDN, we have to duplicate these definitions
+$min-width-sm: 480px;
+$min-width-md: 768px;
+$min-width-lg: 992px;
+$min-width-xl: 1200px;
 
 // Use media queries like this:
 // @include media-query($on-palm) {
@@ -39,7 +43,7 @@ $on-laptop:        800px;
 //     }
 // }
 @mixin media-query($device) {
-    @media screen and (max-width: $device) {
+    @media screen and (min-width: $device) {
         @content;
     }
 }
@@ -47,14 +51,14 @@ $on-laptop:        800px;
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
+@import "global-fonts",
         "base",
         "layout",
         "syntax-highlighting",
         "weenhanceit",
         "parallax",
         "contact-us"
-;
+  ;
 
 body {
   // font-family: 'Lato', sans-serif;
