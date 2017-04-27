@@ -5,13 +5,13 @@ html {
   }
 }
 
-@media screen and (min-width: $min-width-sm) {
+@media media-query($min-width-sm) {
   html {
     font-size: $base-font-size - 8px;
   }
 }
 
-@media screen and (min-width: $min-width-md) {
+@media media-query($min-width-md) {
   html {
     font-size: $base-font-size;
   }
