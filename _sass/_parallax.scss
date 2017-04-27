@@ -70,7 +70,7 @@ section {
   background-size: auto 556px;
 }
 // == @screen-sm ===============================================================
-@media (min-width: 480px) {
+@media (min-width: $min-width-sm) {
   .bg-storm {
     background-image: url('/images/Stormy_14.jpg');
     background-position: top -210px right -150px;
@@ -96,7 +96,7 @@ section {
 }
 // -- end @screen-sm - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // == @screen-md ===============================================================
-@media (min-width: 768px) {
+@media (min-width: $min-width-md) {
   .bg-storm {
     background-image: url('/images/Stormy_12.jpg');
     background-position: top -229px right -75px;
@@ -121,8 +121,8 @@ section {
   }
 }
 // -- end @screen-md - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-// == @screen-md ===============================================================
-@media (min-width: 992px) {
+// == @screen-lg ===============================================================
+@media (min-width: $min-width-lg) {
   .bg-storm {
     background-image: url('/images/Stormy_10.jpg');
     background-position: top -396px right -75px;
@@ -141,9 +141,9 @@ section {
   }
   //
 }
-// -- end @screen-md - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-// == @screen-lg ===============================================================
-@media (min-width: 1200px) {
+// -- end @screen-lg - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// == @screen-xl ===============================================================
+@media (min-width: $min-width-xl) {
   .bg-storm {
     background-image: url('/images/Stormy_10.jpg');
     background-position: top -396px right;
@@ -168,8 +168,9 @@ section {
     height: 500px;
   }
 }
-// -- end @screen-lg - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// -- end @screen-xl - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 //
+// Handle the size of the stormy picture.
 @media (min-width: 1457px) {
   .bg-storm {
     background-size: 100% 1000px;
