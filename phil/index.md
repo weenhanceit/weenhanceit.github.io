@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 ---
 {::options parse_block_html="true" /}
 
