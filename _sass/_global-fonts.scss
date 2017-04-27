@@ -1,0 +1,26 @@
+html {
+  font: {
+    size: $base-font-size - 10px;
+    family: $base-font-family;
+  }
+}
+
+@include media-query($min-width-sm) {
+  html {
+    font-size: $base-font-size - 8px;
+  }
+}
+
+@include media-query($min-width-md) {
+  html {
+    font-size: $base-font-size;
+  }
+}
+
+@include media-query($min-width-lg) {
+  html {
+    font-size: $base-font-size;
+  }
+}
+
+// No extra large for now.

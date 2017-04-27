@@ -1,0 +1,36 @@
+.contact-background {
+  background-color: #342117;
+}
+
+.contact-text {
+  text-align: left;
+  padding: 5px; //  text-shadow: -1px -1px #000000, 1px 0px #000033, 2px 1px #000000, 3px 2px #000033, 4px 3px #000033;
+}
+
+.contact-text-background {
+  background-color: rgba(50,33,23,.5);
+  height: 100%;
+  width: 100%;
+}
+
+.contact-us {
+  color: white;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-size: auto 100%;
+  background-clip: border-box;
+  background-image: url('/images/Writer_Cropped.jpg');
+  background-position: left bottom;
+  padding: {
+    top: 0;
+    right: 0;
+    bottom: 10px;
+    left: 0;
+  }
+}
+
+@include media-query($min-width-md) {
+  .contact-us {
+    padding-left: 40%;
+  }
+}

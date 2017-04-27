@@ -14,9 +14,56 @@
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script>
+  /**
+ * Author: Heather Corey
+ * jQuery Simple Parallax Plugin
+ *
+ */
 
+(function($) {
+
+    $.fn.parallax = function(options) {
+
+        var windowHeight = $(window).height();
+
+        // Establish default settings
+        var settings = $.extend({
+            speed        : 0.15
+        }, options);
+
+        // Iterate over each object in collection
+        return this.each( function() {
+
+        	// Save a reference to the element
+        	var $this = $(this);
+
+        	// Set up Scroll Handler
+        	$(document).scroll(function(){
+
+    		        var scrollTop = $(window).scrollTop();
+            	        var offset = $this.offset().top;
+            	        var height = $this.outerHeight();
+
+    		// Check if above or below viewport
+			if (offset + height <= scrollTop || offset >= scrollTop + windowHeight) {
+				return;
+			}
+
+			var yBgPosition = Math.round((offset - scrollTop) * settings.speed);
+
+                 // Apply the Y Background Position to Set the Parallax Effect
+    			$this.css('background-position', 'center ' + yBgPosition + 'px');
+
+        	});
+        });
+    }
+}(jQuery));
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
   <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
   <script>
     (function(i, s, o, g, r, a, m) {
       i['GoogleAnalyticsObject'] = r;
