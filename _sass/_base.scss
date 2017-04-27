@@ -36,9 +36,9 @@
 // h1, h2, h3, h4, h5, h6,
 // p, blockquote, pre,
 // ul, ol, dl, figure,
-%vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
-}
+// %vertical-rhythm {
+//     margin-bottom: $spacing-unit / 2;
+// }
 //
 //
 //
@@ -90,22 +90,22 @@
 //
 //
 //
-// /**
-//  * Links
-//  */
-// a {
-//     color: $brand-color;
-//     text-decoration: none;
-//
-//     &:visited {
-//         color: darken($brand-color, 15%);
-//     }
-//
-//     &:hover {
-//         color: $text-color;
-//         text-decoration: underline;
-//     }
-// }
+/**
+ * Links
+ */
+a {
+    color: $brand-color;
+    text-decoration: none;
+
+    &:visited {
+        color: darken($brand-color, 20%);
+    }
+
+    &:hover {
+        color: $brand-color;
+        text-decoration: underline;
+    }
+}
 //
 //
 //
