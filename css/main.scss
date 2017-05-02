@@ -29,6 +29,8 @@ $min-width-md: 768px;
 $min-width-lg: 992px;
 $min-width-xl: 1200px;
 
+$vertical-rhythm: 0.5rem;
+
 // Use media queries like this:
 // @include media-query($on-palm) {
 //     .wrapper {
@@ -40,6 +42,57 @@ $min-width-xl: 1200px;
    @media screen and (min-width: $device){
     @content;
   }
+}
+
+// Avoid having to rebuild Bootstrap to customize it.
+.text-muted {
+}
+
+.text-primary {
+}
+
+.text-success {
+}
+
+.text-info {
+}
+
+.text-warning {
+}
+
+.text-danger {
+}
+
+.btn-primary {
+  background-color: $brand-color;
+  border-color: $brand-color;
+
+  &:hover {
+    background-color: darken($brand-color, 10%);
+    border-color: darken($brand-color, 10%);
+  }
+}
+
+.bg-success {
+}
+
+.bg-info text {
+}
+
+.bg-warning {
+}
+
+.bg-danger {
+}
+
+.bg-inverse {
+}
+
+.bg-faded {
+}
+
+.card {
+  margin-bottom: $vertical-rhythm;
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
