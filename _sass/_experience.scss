@@ -1,0 +1,153 @@
+.ex-text-title {
+  color: #FFFFFF;
+  text-align: left;
+  padding: 10px 10px 10px 10px;
+  font-weight: 400;
+  // font-size: 1rem;
+  line-height: 120%;
+  text-shadow: -1px -1px #000066, 1px 0 #000066, 2px 1px #000066, 3px 2px #000066, 4px 3px #000066;
+}
+
+.ex-text-subtitle {
+  color: #FFFFFF;
+  text-align: right;
+  position: absolute;
+  bottom: 1px;
+  right: 1px;
+  padding: 10px 10px 10px 10px;
+  font-weight: 400;
+  // font-size: 1rem;
+  line-height: 120%;
+  text-shadow: -1px -1px #000066, 1px 0 #000066, 2px 1px #000066, 3px 2px #000066, 4px 3px #000066;
+}
+
+.ex-seperator {
+  height: 15px;
+  background-color: black;
+  border: 1px solid red;
+}
+
+.exp-title{
+  position: relative;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top -50px left -150px;
+  background-size: auto 400px;
+  background-clip: border-box;
+  background-image: url('/images/Alchemist_lores_04.jpg');
+
+  height: 275px;
+  width: 100%;
+}
+
+
+// Vertical and Horizontal Media queries
+//-- less than min width
+@media (min-height: 480px) and (min-width: 10px) {
+  .exp-title {
+    background-position: top 0px left -150px;
+    background-size: auto 570px;
+    background-image: url('/images/Alchemist_lores_04.jpg');
+    height: 475px;
+  }
+  .ex-seperator {
+    background-color: yellow;
+  }
+}
+
+
+// -- $min-width-sm -------------------------------------
+@media (min-height: 10px) and (min-width: $min-width-sm) {
+  .exp-title {
+    background-position: top -75px left -75px;
+    background-size: auto 500px;
+
+  }
+  .ex-seperator {
+    background-color: #000088;
+  }
+}
+@media (min-height: 480px) and (min-width: $min-width-sm) {
+  .exp-title {
+    background-position: top -50px left -150px;
+    background-size: auto 700px;
+    background-image: url('/images/Alchemist_lores_04.jpg');
+    height: 475px;
+  }
+  .ex-seperator {
+    background-color: #008888;
+  }
+}
+
+
+// -- $min-width-md -------------------------------------
+@media (min-height: 10px) and (min-width: $min-width-md) {
+  .exp-title {
+    background-position: top -50px left -40px;
+    background-size: auto 600px;
+  }
+  .ex-seperator {
+    background-color: #888888;
+  }
+}
+@media (min-height: 480px) and (min-width: $min-width-md) {
+  .exp-title {
+    background-position: top -50px left -150px;
+    background-size: auto 750px;
+    background-image: url('/images/Alchemist_04.jpg');
+    height: 475px;
+  }
+  .ex-seperator {
+    background-color: #8888FF;
+  }
+}
+
+// -- $min-width-lg -------------------------------------
+@media (min-height: 10px) and (min-width: $min-width-lg) {
+  .exp-title {
+    background-position: top -150px left -100px;
+    background-size: auto 800px;
+    background-image: url('/images/Alchemist_04.jpg');
+  }
+  .ex-seperator {
+    background-color: #88FFFF;
+  }
+}
+@media (min-height: 480px) and (min-width: $min-width-lg) {
+  .exp-title {
+    background-position: top -50px left -150px;
+    background-size: auto 800px;
+    background-image: url('/images/Alchemist_04.jpg');
+    height: 475px;
+  }
+  .ex-seperator {
+    background-color: #FFFFFF;
+  }
+}
+
+
+// -- $min-width-xl -------------------------------------
+@media (min-height: 10px) and (min-width: $min-width-xl) {
+  .exp-title {
+    background-position: top -300px left -75px;
+    background-size: auto 1200px;
+    background-image: url('/images/Alchemist_04.jpg');
+  }
+  .ex-seperator {
+    background-color: #FFFFFF;
+    border: solid 5px blue;
+  }
+}
+@media (min-height: 480px) and (min-width: $min-width-xl) {
+  .exp-title {
+    background-position: top -200px left -25px;
+    background-size: auto 1200px;
+    background-image: url('/images/Alchemist_04.jpg');
+    height: 475px;
+  }
+  .ex-seperator {
+    background-color: #FFFFFF;
+    border: solid 5px green;
+  }
+}
