@@ -23,9 +23,6 @@
 
 .tm-seperator {
   height: 15px;
-  background-color: black;
-  border: 1px solid red;
-
 }
 
 .tm-title{
@@ -50,9 +47,6 @@
     background-image: url('/images/TwoMen_lores_04.jpg');
     height: 400px;
   }
-  .tm-seperator {
-    background-color: yellow;
-  }
 }
 
 
@@ -63,9 +57,6 @@
     background-position: top -150px left -100px;
     background-size: auto 680px;
   }
-  .tm-seperator {
-    background-color: #000088;
-  }
 }
 @media (min-height: 480px) and (min-width: $min-width-sm) {
   .tm-title {
@@ -73,9 +64,6 @@
     background-size: auto 660px;
     background-image: url('/images/TwoMen_lores_04.jpg');
     height: 400px;
-  }
-  .tm-seperator {
-    background-color: #008888;
   }
 }
 
@@ -87,9 +75,6 @@
     background-position: top -150px left -40px;
     background-size: auto 800px;
   }
-  .tm-seperator {
-    background-color: #888888;
-  }
 }
 @media (min-height: 480px) and (min-width: $min-width-md) {
   .tm-title {
@@ -97,9 +82,6 @@
     background-size: auto 850px;
     background-image: url('/images/TwoMen_04.jpg');
     height: 400px;
-  }
-  .tm-seperator {
-    background-color: #8888FF;
   }
 }
 
@@ -110,9 +92,6 @@
     background-position: top -250px left -100px;
     background-size: auto 1000px;
   }
-  .tm-seperator {
-    background-color: #88FFFF;
-  }
 }
 @media (min-height: 480px) and (min-width: $min-width-lg) {
   .tm-title {
@@ -121,10 +100,6 @@
       background-image: url('/images/TwoMen_04.jpg');
       height: 400px;
     }
-
-  .tm-seperator {
-    background-color: #FFFFFF;
-  }
 }
 
 
@@ -135,10 +110,6 @@
     background-position: top -500px left -100px;
     background-size: auto 1500px;
   }
-  .tm-seperator {
-    background-color: #FFFFFF;
-    border: solid 5px blue;
-  }
 }
 @media (min-height: 480px) and (min-width: $min-width-xl) {
   .tm-title {
@@ -146,9 +117,5 @@
     background-size: auto 1500px;
     background-image: url('/images/TwoMen_04.jpg');
     height: 475px;
-  }
-  .tm-seperator {
-    background-color: #FFFFFF;
-    border: solid 5px green;
   }
 }

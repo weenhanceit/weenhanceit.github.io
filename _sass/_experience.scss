@@ -23,8 +23,6 @@
 
 .ex-seperator {
   height: 15px;
-  background-color: black;
-  border: 1px solid red;
 }
 
 .exp-title{
@@ -51,9 +49,6 @@
     background-image: url('/images/Alchemist_lores_04.jpg');
     height: 475px;
   }
-  .ex-seperator {
-    background-color: yellow;
-  }
 }
 
 
@@ -64,9 +59,6 @@
     background-size: auto 500px;
 
   }
-  .ex-seperator {
-    background-color: #000088;
-  }
 }
 @media (min-height: 480px) and (min-width: $min-width-sm) {
   .exp-title {
@@ -74,9 +66,6 @@
     background-size: auto 700px;
     background-image: url('/images/Alchemist_lores_04.jpg');
     height: 475px;
-  }
-  .ex-seperator {
-    background-color: #008888;
   }
 }
 
@@ -87,9 +76,6 @@
     background-position: top -50px left -40px;
     background-size: auto 600px;
   }
-  .ex-seperator {
-    background-color: #888888;
-  }
 }
 @media (min-height: 480px) and (min-width: $min-width-md) {
   .exp-title {
@@ -97,9 +83,6 @@
     background-size: auto 750px;
     background-image: url('/images/Alchemist_04.jpg');
     height: 475px;
-  }
-  .ex-seperator {
-    background-color: #8888FF;
   }
 }
 
@@ -110,9 +93,6 @@
     background-size: auto 800px;
     background-image: url('/images/Alchemist_04.jpg');
   }
-  .ex-seperator {
-    background-color: #88FFFF;
-  }
 }
 @media (min-height: 480px) and (min-width: $min-width-lg) {
   .exp-title {
@@ -120,9 +100,6 @@
     background-size: auto 800px;
     background-image: url('/images/Alchemist_04.jpg');
     height: 475px;
-  }
-  .ex-seperator {
-    background-color: #FFFFFF;
   }
 }
 
@@ -134,10 +111,6 @@
     background-size: auto 1200px;
     background-image: url('/images/Alchemist_04.jpg');
   }
-  .ex-seperator {
-    background-color: #FFFFFF;
-    border: solid 5px blue;
-  }
 }
 @media (min-height: 480px) and (min-width: $min-width-xl) {
   .exp-title {
@@ -145,9 +118,5 @@
     background-size: auto 1200px;
     background-image: url('/images/Alchemist_04.jpg');
     height: 475px;
-  }
-  .ex-seperator {
-    background-color: #FFFFFF;
-    border: solid 5px green;
   }
 }
