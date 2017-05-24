@@ -12,7 +12,7 @@ layout: home
 
 The __solution__ is what you need. Our two principal consultants
 bring over 70 years of IT and business experience
-to find a solution that works for you.
+to  find a solution that works for you.
 
 __Infrastructure__ in IT means the servers,
 data storage devices,
